@@ -1,0 +1,65 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	margin-top: 50px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#add-task-form {
+	margin-bottom: 30px;
+}
+
+#task-list {
+	margin-top: 30px;
+}
+
+.task {
+	margin-bottom: 10px;
+}
+
+.task .title {
+	font-weight: bold;
+}
+
+.task .description {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.task .due-date {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.task .priority {
+	font-weight: bold;
+}
+
+.task .btn-group {
+	float: right;
+}
+
+.task.completed {
+	opacity: 0.5;
+}
+
+.btn-priority-low {
+	background-color: #e6ffe6;
+	color: #006600;
+}
+
+.btn-priority-medium {
+	background-color: #ffffe6;
+	color: #666600;
+}
+
+.btn-priority-high {
+	background-color: #ffe6e6;
+	color: #990000;
+}
